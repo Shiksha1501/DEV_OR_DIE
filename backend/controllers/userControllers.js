@@ -35,4 +35,9 @@ const registerUser = asyncHandler(async (req, res) => {
   }
 });
 
+// const allUsers = asyncHandler(async (req, res) => {
+//   const keyword = req.query;
+//   console.log(query)
+// });
+
 module.exports = { registerUser };
